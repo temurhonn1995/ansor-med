@@ -45,6 +45,14 @@ body {
   background-color: #de2e54;
   color: white;
 }
+.main-button-solid:hover {
+  background-color: rgba(222, 46, 84, 0.8);
+  color: white;
+}
+.main-button-solid:active {
+  background-color: rgba(222, 46, 84, 0.6);
+  color: white;
+}
 .site-header {
   padding: 24px 0px;
 }
@@ -116,6 +124,10 @@ body {
 .site-footer-logo:hover {
   color: #de2e54;
 }
+.site-footer-logo:active {
+  color: white;
+  opacity: 0.6;
+}
 .sitenav-footer-link {
   color: white;
 }
@@ -125,4 +137,32 @@ body {
 .sitenav-footer-link:active {
   color: white;
   opacity: 0.6;
+}
+.hero {
+  background: #0eb4c1;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-content {
+  padding: 120px 0px;
+  color: white;
+  width: 500px;
+}
+.hero-content-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.hero-text {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.hero-img {
+  align-self: flex-end;
 }
