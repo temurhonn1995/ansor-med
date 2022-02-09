@@ -12,7 +12,7 @@ body {
 }
 *:focus {
   outline: 2px dashed #de2e54;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 .container {
   width: 100%;
@@ -45,11 +45,13 @@ body {
   background-color: #de2e54;
   color: white;
 }
+.site-header {
+  padding: 24px 0px;
+}
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 24px 0px;
 }
 .site-logo {
   display: flex;
@@ -67,6 +69,7 @@ body {
 }
 .site-logo-img {
   margin-right: 16px;
+  border-radius: 50%;
 }
 .sitenav {
   font-size: 14px;
@@ -97,4 +100,29 @@ body {
 }
 .sitenav-item:last-child {
   margin-right: 0px;
+}
+.site-footer {
+  background: #000;
+  padding: 24px;
+}
+.footer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-footer-logo {
+  color: white;
+}
+.site-footer-logo:hover {
+  color: #de2e54;
+}
+.sitenav-footer-link {
+  color: white;
+}
+.sitenav-footer-link:hover {
+  color: #de2e54;
+}
+.sitenav-footer-link:active {
+  color: white;
+  opacity: 0.6;
 }
