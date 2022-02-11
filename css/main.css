@@ -1,6 +1,9 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -51,6 +54,11 @@ body {
 }
 .main-button-solid:active {
   background-color: rgba(222, 46, 84, 0.6);
+  color: white;
+}
+.info-button:hover {
+  background: #de2e54;
+  border: transparent;
   color: white;
 }
 .site-header {
@@ -165,4 +173,64 @@ body {
 }
 .hero-img {
   align-self: flex-end;
+}
+.index-container {
+  padding: 120px 0px;
+  width: 864px;
+}
+.index-services-heading {
+  text-align: center;
+  margin-bottom: 56px;
+  font-size: 36px;
+  line-height: 1.2;
+  font-weight: bold;
+  color: #000;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+}
+.index-services-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+.index-services-content-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 1.2;
+  color: #000;
+}
+.index-services-content-text {
+  width: 600px;
+}
+.index-service-center {
+  text-align: center;
+}
+.info {
+  background-color: #0eb4c1;
+  padding: 64px 0px;
+}
+.info-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.info-heading {
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.2;
+  color: white;
+  font-weight: bold;
+  margin-top: 0px;
+}
+.info-button {
+  background: transparent;
+  border: 2px solid white;
+  margin-right: 20px;
+}
+
+h3,
+h2 {
+  margin-top: 0px;
 }
